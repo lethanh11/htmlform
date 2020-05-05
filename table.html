@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td { border: solid 1px blue}
+    </style>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <table class="bang">
+        <tr>
+            <td class="dk" colspan="2">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <div>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="yourname"/></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" name="ngaysinh"/></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" name="gender" value="male"/>Nam <input type="radio" name="gender" value="female"/>Nữ</td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea rows="3" cols="25"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select>
+                    <option value="chonlop">-Chọn Lớp-</option>
+                    <option value="c0420h1"> C0420h1</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" name="Email"/></td>
+        </tr>
+        <tr>
+            <td>Điện Thoại</td>
+            <td><input type="number" name="sdt"/></td>
+        </tr>
+        <tr class="nhap">
+            <td></td>
+            <td><input type="submit" value="Đăng Ký"/>
+           <button>Nhập  lại</button></td>
+        </tr>
+        </div>
+    </table>
+</body>
+</html>
