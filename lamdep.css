@@ -1,0 +1,39 @@
+h1{
+    background-color: orange;
+    height: 35px;
+    width: 490px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.borderngoai {
+    border: solid cyan;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    height: 270px;
+    width: 500px;
+}
+.nhap {
+    padding-left: 50px;
+    color: blue;
+}
+.di {
+    padding-left: 65px;
+    padding-right: 10px;
+    color: blue;
+}
+#sothich {
+    padding-left: 50px;
+    color: blue;
+}
+.tapthe {
+    padding-left: 110px;
+    margin-top: -20px;
+    color: red;
+}
+#docsach {
+    padding-left: 12px;
+}
