@@ -1,0 +1,15 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+}
+tr, td {
+    border: 1px solid red;
+    text-align: center;
+}
+.dong {
+    background-color: yellow;
+}
+h1 {
+    font-size: 25px;
+}
