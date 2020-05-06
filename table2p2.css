@@ -1,0 +1,29 @@
+p {
+    color: blue;
+    margin-top: -11px;
+}
+#time {
+    padding-left: 376px;
+    margin-top: -83px;
+}
+#date {
+    padding-left: 383px;
+}
+table {
+    border-collapse: collapse;
+}
+tr, td {
+    border: 1px solid red;
+        text-align: center;
+}
+.dong {
+    background-color: sandybrown;
+}
+#t {
+    background-color: springgreen;
+}
+h1 {
+    padding-left: 159px;
+    font-size: 20px;
+    color: blue;
+}
